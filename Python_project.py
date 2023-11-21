@@ -37,7 +37,7 @@ def send_whatsappMessage():
 
 #Sending Emails 
 def send_Email():
-    emai_address  = 'kumarmaheshn2021@gmail.com'
+    emai_address  = 'Your Email ID/ Gmail Id (It is like From Mail address)'
     emai_password = 'Your API password'
     yag = yagmail.SMTP(emai_address, emai_password)
     to_address:str
